@@ -1,0 +1,117 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.unknown",
+        "texture_width": 256,
+        "texture_height": 256,
+        "visible_bounds_width": 7,
+        "visible_bounds_height": 4.5,
+        "visible_bounds_offset": [0, 1.75, 0]
+      },
+      "bones": [
+        {
+          "name": "lower_body",
+          "pivot": [0, 43.5, 0]
+        },
+        {
+          "name": "upper_body",
+          "parent": "lower_body",
+          "pivot": [0, 51, 0],
+          "cubes": [
+            {
+              "origin": [-33, 67, -8],
+              "size": [24, 13, 16],
+              "uv": [0, 33]
+            }
+          ]
+        },
+        {
+          "name": "arm2",
+          "parent": "upper_body",
+          "pivot": [-12, 69, 0],
+          "cubes": [
+            {
+              "origin": [-24, 56, -6],
+              "size": [12, 18, 12],
+              "uv": [0, 146]
+            }
+          ]
+        },
+        {
+          "name": "lowerarm2",
+          "parent": "arm2",
+          "pivot": [-18, 54, 0],
+          "cubes": [
+            {
+              "origin": [-24, 38, -6],
+              "size": [12, 18, 12],
+              "uv": [154, 0]
+            }
+          ]
+        },
+        {
+          "name": "shackle4",
+          "parent": "lowerarm2",
+          "pivot": [-18, 43.5, 0],
+          "cubes": [
+            {
+              "origin": [-26, 43, -8],
+              "size": [16, 5, 16],
+              "uv": [44, 102]
+            }
+          ]
+        },
+        {
+          "name": "chain5",
+          "parent": "shackle4",
+          "pivot": [-18, 44, 8],
+          "cubes": [
+            {
+              "origin": [-21, 46, 8],
+              "size": [6, 0, 9],
+              "uv": [55, 33]
+            }
+          ]
+        },
+        {
+          "name": "chain6",
+          "parent": "chain5",
+          "pivot": [-18, 44, 17],
+          "cubes": [
+            {
+              "origin": [-21, 46, 17],
+              "size": [6, 0, 9],
+              "uv": [55, 33]
+            }
+          ]
+        },
+        {
+          "name": "chain7",
+          "parent": "chain6",
+          "pivot": [-18, 44, 26],
+          "cubes": [
+            {
+              "origin": [-21, 46, 26],
+              "size": [6, 0, 9],
+              "uv": [55, 33]
+            }
+          ]
+        },
+        {
+          "name": "chain8",
+          "parent": "chain7",
+          "pivot": [-18, 44, 35],
+          "cubes": [
+            {
+              "origin": [-21, 46, 35],
+              "size": [6, 0, 9],
+              "uv": [55, 33]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
