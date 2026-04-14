@@ -1,0 +1,161 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.DokuroizoTheGrimReaper",
+        "texture_width": 128,
+        "texture_height": 128,
+        "visible_bounds_width": 3,
+        "visible_bounds_height": 5,
+        "visible_bounds_offset": [0, 1.5, 0]
+      },
+      "bones": [
+        {
+          "name": "lower_body",
+          "pivot": [0, 14.5, 0],
+          "cubes": [
+            {
+              "origin": [-4, 14, -2],
+              "size": [8, 5, 5],
+              "uv": [25, 8]
+            }
+          ]
+        },
+        {
+          "name": "upper_body",
+          "parent": "lower_body",
+          "pivot": [0, 17, 0],
+          "cubes": [
+            {
+              "origin": [-4, 19, -2],
+              "size": [8, 7, 4],
+              "uv": [37, 33]
+            }
+          ]
+        },
+        {
+          "name": "arm",
+          "parent": "upper_body",
+          "pivot": [4, 23, 0],
+          "cubes": [
+            {
+              "origin": [4, 20, -2],
+              "size": [4, 6, 5],
+              "uv": [46, 0],
+              "mirror": true
+            }
+          ]
+        },
+        {
+          "name": "lowerarm",
+          "parent": "arm",
+          "pivot": [6, 18, 0],
+          "cubes": [
+            {
+              "origin": [4, 14, -2],
+              "size": [4, 6, 7],
+              "uv": [0, 27],
+              "mirror": true
+            },
+            {
+              "origin": [5, 12, -1],
+              "size": [2, 2, 2],
+              "uv": [0, 40],
+              "mirror": true
+            }
+          ]
+        },
+        {
+          "name": "arm2",
+          "parent": "upper_body",
+          "pivot": [-4, 23, 0],
+          "cubes": [
+            {
+              "origin": [-8, 20, -2],
+              "size": [4, 6, 5],
+              "uv": [46, 0]
+            }
+          ]
+        },
+        {
+          "name": "lowerarm2",
+          "parent": "arm2",
+          "pivot": [-6, 18, 0],
+          "cubes": [
+            {
+              "origin": [-8, 14, -2],
+              "size": [4, 6, 7],
+              "uv": [0, 27]
+            },
+            {
+              "origin": [-7, 12, -1],
+              "size": [2, 2, 2],
+              "uv": [0, 40]
+            }
+          ]
+        },
+        {
+          "name": "scythe",
+          "parent": "lowerarm2",
+          "pivot": [-6, 11, 0],
+          "cubes": [
+            {
+              "origin": [-6, -6, -22],
+              "size": [0, 22, 50],
+              "uv": [0, 0]
+            }
+          ]
+        },
+        {
+          "name": "head",
+          "parent": "upper_body",
+          "pivot": [0, 24, 0],
+          "cubes": [
+            {
+              "origin": [-3.5, 26, -5.5],
+              "size": [7, 7, 7],
+              "uv": [0, 13]
+            }
+          ]
+        },
+        {
+          "name": "jaw",
+          "parent": "head",
+          "pivot": [0, 24, -2.4],
+          "cubes": [
+            {
+              "origin": [-3, 24, -5.4],
+              "size": [6, 2, 3],
+              "uv": [23, 1]
+            }
+          ]
+        },
+        {
+          "name": "leg",
+          "parent": "lower_body",
+          "pivot": [0, 12, 0],
+          "cubes": [
+            {
+              "origin": [-4, 8, -2],
+              "size": [8, 6, 6],
+              "uv": [22, 21]
+            }
+          ]
+        },
+        {
+          "name": "lowerleg",
+          "parent": "leg",
+          "pivot": [0, 6, 0],
+          "cubes": [
+            {
+              "origin": [-4, 2, -2],
+              "size": [8, 6, 7],
+              "uv": [0, 0]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
