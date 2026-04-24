@@ -13,7 +13,7 @@
       "bones": [
         {
           "name": "dish",
-          "pivot": [0, 3, -0.25],
+          "pivot": [0, 5, -0.25],
           "cubes": [
             {
               "origin": [-3.5, 3, -3.75],
@@ -30,7 +30,7 @@
         {
           "name": "arm",
           "parent": "dish",
-          "pivot": [0, 1, -0.25],
+          "pivot": [0, 3, -0.25],
           "cubes": [
             {
               "origin": [-1, 4, -1.25],
@@ -42,7 +42,7 @@
         {
           "name": "hand",
           "parent": "arm",
-          "pivot": [0, 6, -0.25],
+          "pivot": [0, 8, -0.25],
           "cubes": [
             {
               "origin": [-1.5, 8, -0.75],
@@ -54,7 +54,7 @@
         {
           "name": "finger",
           "parent": "hand",
-          "pivot": [1.5, 8.75, 0.25],
+          "pivot": [1.5, 10.75, 0.25],
           "cubes": [
             {
               "origin": [1, 10.75, 0.25],
@@ -66,7 +66,7 @@
         {
           "name": "finger2",
           "parent": "hand",
-          "pivot": [0.5, 8.75, 0.25],
+          "pivot": [0.5, 10.75, 0.25],
           "cubes": [
             {
               "origin": [0, 11, 0.25],
@@ -78,7 +78,7 @@
         {
           "name": "flame",
           "parent": "finger2",
-          "pivot": [0.5, 12, 0.25],
+          "pivot": [0.5, 14, 0.25],
           "cubes": [
             {
               "origin": [-2, 14, 0.25],
@@ -90,7 +90,7 @@
         {
           "name": "finger3",
           "parent": "hand",
-          "pivot": [-0.5, 8.75, 0.25],
+          "pivot": [-0.5, 10.75, 0.25],
           "cubes": [
             {
               "origin": [-1, 11, 0.25],
@@ -102,7 +102,7 @@
         {
           "name": "finger4",
           "parent": "hand",
-          "pivot": [-1.5, 8.75, 0.25],
+          "pivot": [-1.5, 10.75, 0.25],
           "cubes": [
             {
               "origin": [-2, 10.75, 0.25],
@@ -114,7 +114,7 @@
         {
           "name": "thumb",
           "parent": "hand",
-          "pivot": [1.5, 9, -0.25],
+          "pivot": [1.5, 11, -0.25],
           "cubes": [
             {
               "origin": [1.5, 11, -0.75],

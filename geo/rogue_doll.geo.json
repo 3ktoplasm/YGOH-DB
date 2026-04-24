@@ -13,7 +13,7 @@
       "bones": [
         {
           "name": "body",
-          "pivot": [0, 16.75, 0],
+          "pivot": [0, 18.75, 0],
           "cubes": [
             {
               "origin": [-2.5, 23, -6],
@@ -30,7 +30,7 @@
         {
           "name": "arm2",
           "parent": "body",
-          "pivot": [-5, 14, -3],
+          "pivot": [-5, 16, -3],
           "cubes": [
             {
               "origin": [-11, 15, -4],
@@ -43,7 +43,7 @@
         {
           "name": "lowerarm2",
           "parent": "arm2",
-          "pivot": [-11, 14, -3],
+          "pivot": [-11, 16, -3],
           "cubes": [
             {
               "origin": [-17, 15, -4],
@@ -56,7 +56,7 @@
         {
           "name": "robe",
           "parent": "body",
-          "pivot": [0, 11, 0],
+          "pivot": [0, 13, 0],
           "cubes": [
             {
               "origin": [-5.5, 6.25, -5.5],
@@ -74,7 +74,7 @@
         {
           "name": "arm",
           "parent": "body",
-          "pivot": [5, 14, -3],
+          "pivot": [5, 16, -3],
           "cubes": [
             {
               "origin": [5, 15, -4],
@@ -86,7 +86,7 @@
         {
           "name": "lowerarm",
           "parent": "arm",
-          "pivot": [11, 14, -3],
+          "pivot": [11, 16, -3],
           "cubes": [
             {
               "origin": [11, 15, -4],
@@ -98,7 +98,7 @@
         {
           "name": "staff",
           "parent": "lowerarm",
-          "pivot": [17, 14, -3],
+          "pivot": [17, 16, -3],
           "cubes": [
             {
               "origin": [15, 5, -3],

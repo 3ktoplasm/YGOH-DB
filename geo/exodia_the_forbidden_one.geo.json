@@ -13,12 +13,12 @@
       "bones": [
         {
           "name": "lower_body",
-          "pivot": [0, 43.5, 0]
+          "pivot": [0, 45.5, 0]
         },
         {
           "name": "upper_body",
           "parent": "lower_body",
-          "pivot": [0, 51, 0],
+          "pivot": [0, 53, 0],
           "cubes": [
             {
               "origin": [-14, 53, -6],
@@ -30,7 +30,7 @@
         {
           "name": "head",
           "parent": "upper_body",
-          "pivot": [0, 72, -5],
+          "pivot": [0, 74, -5],
           "cubes": [
             {
               "origin": [-7.5, 74, -12.5],

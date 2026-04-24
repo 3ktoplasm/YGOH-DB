@@ -13,7 +13,7 @@
       "bones": [
         {
           "name": "bullet",
-          "pivot": [11.5, 9.5, -4.5],
+          "pivot": [11.5, 11.5, -4.5],
           "cubes": [
             {
               "origin": [10, 10, -6],
@@ -25,7 +25,7 @@
         {
           "name": "hair",
           "parent": "bullet",
-          "pivot": [12.5, 9.5, -3],
+          "pivot": [12.5, 11.5, -3],
           "cubes": [
             {
               "origin": [12.5, 10.5, -3],
@@ -37,7 +37,7 @@
         {
           "name": "hair2",
           "parent": "bullet",
-          "pivot": [10.5, 9.5, -3],
+          "pivot": [10.5, 11.5, -3],
           "cubes": [
             {
               "origin": [10.5, 10.5, -3],
@@ -49,7 +49,7 @@
         {
           "name": "hair3",
           "parent": "bullet",
-          "pivot": [11.5, 10.5, -3],
+          "pivot": [11.5, 12.5, -3],
           "cubes": [
             {
               "origin": [10.5, 12.5, -3],
@@ -61,7 +61,7 @@
         {
           "name": "hair4",
           "parent": "bullet",
-          "pivot": [11.5, 8.5, -3],
+          "pivot": [11.5, 10.5, -3],
           "cubes": [
             {
               "origin": [10.5, 10.5, -3],
@@ -73,7 +73,7 @@
         },
         {
           "name": "body",
-          "pivot": [0, 9, 1.25],
+          "pivot": [0, 11, 1.25],
           "cubes": [
             {
               "origin": [-6, 6, -1],
@@ -100,7 +100,7 @@
         {
           "name": "eye",
           "parent": "body",
-          "pivot": [-2, 10, 5],
+          "pivot": [-2, 12, 5],
           "cubes": [
             {
               "origin": [-4, 10, 3],
@@ -113,7 +113,7 @@
         {
           "name": "eye2",
           "parent": "body",
-          "pivot": [2, 10, 5],
+          "pivot": [2, 12, 5],
           "cubes": [
             {
               "origin": [0, 10, 3],
@@ -125,7 +125,7 @@
         {
           "name": "hair5",
           "parent": "body",
-          "pivot": [0, 5, 7],
+          "pivot": [0, 7, 7],
           "cubes": [
             {
               "origin": [-5, 7, 7],
@@ -139,7 +139,7 @@
         {
           "name": "hair6",
           "parent": "body",
-          "pivot": [-2.5, 9.33013, 7],
+          "pivot": [-2.5, 11.33013, 7],
           "rotation": [0, 0, 30],
           "cubes": [
             {
@@ -153,7 +153,7 @@
         {
           "name": "hair7",
           "parent": "body",
-          "pivot": [2.5, 9.33013, 7],
+          "pivot": [2.5, 11.33013, 7],
           "rotation": [0, 0, -30],
           "cubes": [
             {

@@ -13,7 +13,7 @@
       "bones": [
         {
           "name": "body",
-          "pivot": [0, 18, 0],
+          "pivot": [0, 20, 0],
           "cubes": [
             {
               "origin": [-15, 11, -24],
@@ -41,7 +41,7 @@
         {
           "name": "tail",
           "parent": "body",
-          "pivot": [0, 23.5, 24],
+          "pivot": [0, 25.5, 24],
           "cubes": [
             {
               "origin": [-2, 24, 24],
@@ -53,7 +53,7 @@
         {
           "name": "leg4",
           "parent": "body",
-          "pivot": [-15, 19.5, 13],
+          "pivot": [-15, 21.5, 13],
           "cubes": [
             {
               "origin": [-25, 7, 8],
@@ -65,7 +65,7 @@
         {
           "name": "leg3",
           "parent": "body",
-          "pivot": [15, 19.5, 13],
+          "pivot": [15, 21.5, 13],
           "cubes": [
             {
               "origin": [15, 7, 8],
@@ -78,7 +78,7 @@
         {
           "name": "leg2",
           "parent": "body",
-          "pivot": [-15, 19.5, -15],
+          "pivot": [-15, 21.5, -15],
           "cubes": [
             {
               "origin": [-25, 7, -20],
@@ -90,7 +90,7 @@
         {
           "name": "leg",
           "parent": "body",
-          "pivot": [15, 19.5, -15],
+          "pivot": [15, 21.5, -15],
           "cubes": [
             {
               "origin": [15, 7, -20],
@@ -103,7 +103,7 @@
         {
           "name": "head",
           "parent": "body",
-          "pivot": [0, 21.25, -24],
+          "pivot": [0, 23.25, -24],
           "cubes": [
             {
               "origin": [-4.5, 19, -34],
@@ -125,7 +125,7 @@
         {
           "name": "jaw",
           "parent": "head",
-          "pivot": [0, 19, -34],
+          "pivot": [0, 21, -34],
           "cubes": [
             {
               "origin": [-2.5, 18, -39],
@@ -137,7 +137,7 @@
         {
           "name": "gun",
           "parent": "body",
-          "pivot": [0, 28.92857, 12.92857],
+          "pivot": [0, 30.92857, 12.92857],
           "cubes": [
             {
               "origin": [-3, 27, 9],

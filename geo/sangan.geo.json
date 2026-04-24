@@ -13,7 +13,7 @@
       "bones": [
         {
           "name": "body",
-          "pivot": [0, 14, 0],
+          "pivot": [0, 16, 0],
           "cubes": [
             {
               "origin": [-7, 8, -7],
@@ -25,7 +25,7 @@
         {
           "name": "leg",
           "parent": "body",
-          "pivot": [5, 6, -1.5],
+          "pivot": [5, 8, -1.5],
           "cubes": [
             {
               "origin": [2, 5, -9],
@@ -38,7 +38,7 @@
         {
           "name": "lowerleg",
           "parent": "leg",
-          "pivot": [5, 4.5, -9],
+          "pivot": [5, 6.5, -9],
           "cubes": [
             {
               "origin": [2, 5, -13],
@@ -51,7 +51,7 @@
         {
           "name": "leg2",
           "parent": "body",
-          "pivot": [-5, 6, -1.5],
+          "pivot": [-5, 8, -1.5],
           "cubes": [
             {
               "origin": [-8, 5, -9],
@@ -63,7 +63,7 @@
         {
           "name": "lowerleg2",
           "parent": "leg2",
-          "pivot": [-5, 4.5, -9],
+          "pivot": [-5, 6.5, -9],
           "cubes": [
             {
               "origin": [-8, 5, -13],
@@ -75,7 +75,7 @@
         {
           "name": "arm2",
           "parent": "body",
-          "pivot": [-7, 18, -4],
+          "pivot": [-7, 20, -4],
           "cubes": [
             {
               "origin": [-14, 19, -5],
@@ -87,7 +87,7 @@
         {
           "name": "lowerarm2",
           "parent": "arm2",
-          "pivot": [-14, 18, -4],
+          "pivot": [-14, 20, -4],
           "cubes": [
             {
               "origin": [-21, 19, -5],
@@ -99,7 +99,7 @@
         {
           "name": "claw2",
           "parent": "lowerarm2",
-          "pivot": [-21, 18, -4],
+          "pivot": [-21, 20, -4],
           "cubes": [
             {
               "origin": [-23, 19, -5],
@@ -111,7 +111,7 @@
         {
           "name": "arm",
           "parent": "body",
-          "pivot": [7, 18, -4],
+          "pivot": [7, 20, -4],
           "cubes": [
             {
               "origin": [7, 19, -5],
@@ -124,7 +124,7 @@
         {
           "name": "lowerarm",
           "parent": "arm",
-          "pivot": [14, 18, -4],
+          "pivot": [14, 20, -4],
           "cubes": [
             {
               "origin": [14, 19, -5],
@@ -137,7 +137,7 @@
         {
           "name": "claw",
           "parent": "lowerarm",
-          "pivot": [21, 18, -4],
+          "pivot": [21, 20, -4],
           "cubes": [
             {
               "origin": [21, 19, -5],

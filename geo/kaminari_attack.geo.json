@@ -13,12 +13,12 @@
       "bones": [
         {
           "name": "upper_body",
-          "pivot": [0, 17, 0]
+          "pivot": [0, 19, 0]
         },
         {
           "name": "balllightning",
           "parent": "upper_body",
-          "pivot": [0, 16, -9],
+          "pivot": [0, 18, -9],
           "cubes": [
             {
               "origin": [-2, 16, -11],
@@ -30,7 +30,7 @@
         {
           "name": "arm",
           "parent": "upper_body",
-          "pivot": [4, 23, 0],
+          "pivot": [4, 25, 0],
           "cubes": [
             {
               "origin": [4, 20, -2],
@@ -43,7 +43,7 @@
         {
           "name": "lowerarm",
           "parent": "arm",
-          "pivot": [6, 18, 0],
+          "pivot": [6, 20, 0],
           "cubes": [
             {
               "origin": [4, 14, -2],
@@ -56,7 +56,7 @@
         {
           "name": "arm2",
           "parent": "upper_body",
-          "pivot": [-4, 23, 0],
+          "pivot": [-4, 25, 0],
           "cubes": [
             {
               "origin": [-8, 20, -2],
@@ -68,7 +68,7 @@
         {
           "name": "lowerarm2",
           "parent": "arm2",
-          "pivot": [-6, 18, 0],
+          "pivot": [-6, 20, 0],
           "cubes": [
             {
               "origin": [-8, 14, -2],
@@ -80,7 +80,7 @@
         {
           "name": "head",
           "parent": "upper_body",
-          "pivot": [0, 24, 0],
+          "pivot": [0, 26, 0],
           "cubes": [
             {
               "origin": [-3.5, 26, -3.5],

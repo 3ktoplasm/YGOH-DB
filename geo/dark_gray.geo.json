@@ -13,7 +13,7 @@
       "bones": [
         {
           "name": "horse",
-          "pivot": [0, 22.4, 6],
+          "pivot": [0, 24.4, 6],
           "cubes": [
             {
               "origin": [-4, 21, 1.2],
@@ -25,7 +25,7 @@
         {
           "name": "hindleg",
           "parent": "horse",
-          "pivot": [3.25, 20.15, 7.85],
+          "pivot": [3.25, 22.15, 7.85],
           "cubes": [
             {
               "origin": [2.4, 19.3, 5.2],
@@ -42,7 +42,7 @@
         {
           "name": "hindleg_lower",
           "parent": "hindleg",
-          "pivot": [4.175, 11.825, 7.4],
+          "pivot": [4.175, 13.825, 7.4],
           "cubes": [
             {
               "origin": [3.2, 7.8, 7.8],
@@ -59,7 +59,7 @@
         {
           "name": "hindleg2",
           "parent": "horse",
-          "pivot": [-3.15, 20.25, 7.85],
+          "pivot": [-3.15, 22.25, 7.85],
           "cubes": [
             {
               "origin": [-6.4, 19.3, 5.2],
@@ -76,7 +76,7 @@
         {
           "name": "hindleg_lower2",
           "parent": "hindleg2",
-          "pivot": [-3.825, 11.825, 7.4],
+          "pivot": [-3.825, 13.825, 7.4],
           "cubes": [
             {
               "origin": [-4.8, 7.8, 7.8],
@@ -93,7 +93,7 @@
         {
           "name": "horse_upper_body",
           "parent": "horse",
-          "pivot": [0, 22.3, 1.15],
+          "pivot": [0, 24.3, 1.15],
           "cubes": [
             {
               "origin": [-4, 19.8, -10.85],
@@ -105,7 +105,7 @@
         {
           "name": "wing2",
           "parent": "horse_upper_body",
-          "pivot": [-3, 26.8, -0.85],
+          "pivot": [-3, 28.8, -0.85],
           "cubes": [
             {
               "origin": [-3, 28.8, -3.85],
@@ -117,7 +117,7 @@
         {
           "name": "wing",
           "parent": "horse_upper_body",
-          "pivot": [3, 26.8, -0.85],
+          "pivot": [3, 28.8, -0.85],
           "cubes": [
             {
               "origin": [3, 28.8, -3.85],
@@ -129,7 +129,7 @@
         {
           "name": "foreleg",
           "parent": "horse_upper_body",
-          "pivot": [3.1, 19.2, -8.3],
+          "pivot": [3.1, 21.2, -8.3],
           "cubes": [
             {
               "origin": [2.6, 13.7, -10.3],
@@ -141,7 +141,7 @@
         {
           "name": "foreleg_lower",
           "parent": "foreleg",
-          "pivot": [4.2, 11.7, -8.9],
+          "pivot": [4.2, 13.7, -8.9],
           "cubes": [
             {
               "origin": [3.2, 7.7, -9.5],
@@ -158,7 +158,7 @@
         {
           "name": "foreleg2",
           "parent": "horse_upper_body",
-          "pivot": [-3.4, 19.2, -8.3],
+          "pivot": [-3.4, 21.2, -8.3],
           "cubes": [
             {
               "origin": [-5.4, 13.7, -10.3],
@@ -170,7 +170,7 @@
         {
           "name": "foreleg_lower2",
           "parent": "foreleg2",
-          "pivot": [-3.8, 11.7, -8.9],
+          "pivot": [-3.8, 13.7, -8.9],
           "cubes": [
             {
               "origin": [-4.8, 7.7, -9.5],
@@ -187,7 +187,7 @@
         {
           "name": "horse_neck",
           "parent": "horse_upper_body",
-          "pivot": [0.2, 25.975, -9.65],
+          "pivot": [0.2, 27.975, -9.65],
           "cubes": [
             {
               "origin": [-1.8, 26.45, -15.4],
@@ -199,7 +199,7 @@
         {
           "name": "horse_head",
           "parent": "horse_neck",
-          "pivot": [0.2, 27, -15.4],
+          "pivot": [0.2, 29, -15.4],
           "cubes": [
             {
               "origin": [-2.3, 25.5, -19.4],
@@ -227,7 +227,7 @@
         {
           "name": "tail",
           "parent": "horse",
-          "pivot": [-0.1, 26.1, 10.8],
+          "pivot": [-0.1, 28.1, 10.8],
           "cubes": [
             {
               "origin": [-5.85, 28.1, 10.8],
@@ -246,7 +246,7 @@
         {
           "name": "tail2",
           "parent": "horse",
-          "pivot": [2.9, 26.1, 10.8],
+          "pivot": [2.9, 28.1, 10.8],
           "cubes": [
             {
               "origin": [-2.85, 28.1, 10.8],
@@ -265,7 +265,7 @@
         {
           "name": "tail3",
           "parent": "horse",
-          "pivot": [-3.1, 26.1, 10.8],
+          "pivot": [-3.1, 28.1, 10.8],
           "cubes": [
             {
               "origin": [-8.85, 28.1, 10.8],

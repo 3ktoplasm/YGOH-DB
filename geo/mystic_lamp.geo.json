@@ -13,7 +13,7 @@
       "bones": [
         {
           "name": "lamp",
-          "pivot": [-0.4, 3.2, 0],
+          "pivot": [-0.4, 5.2, 0],
           "cubes": [
             {
               "origin": [2.5, 6, -1.5],
@@ -45,7 +45,7 @@
         {
           "name": "smoke",
           "parent": "lamp",
-          "pivot": [7.5, 4, 0],
+          "pivot": [7.5, 6, 0],
           "cubes": [
             {
               "origin": [0, 6, 0],

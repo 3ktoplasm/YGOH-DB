@@ -13,7 +13,7 @@
       "bones": [
         {
           "name": "tornado",
-          "pivot": [0, 0, 0],
+          "pivot": [0, 2, 0],
           "cubes": [
             {
               "origin": [-1, 2, -1],
@@ -25,7 +25,7 @@
         {
           "name": "tornado2",
           "parent": "tornado",
-          "pivot": [0, 4, 0],
+          "pivot": [0, 6, 0],
           "cubes": [
             {
               "origin": [-2, 6, -2],
@@ -37,7 +37,7 @@
         {
           "name": "tornado3",
           "parent": "tornado2",
-          "pivot": [0, 9, 0],
+          "pivot": [0, 11, 0],
           "cubes": [
             {
               "origin": [-3, 11, -3],
@@ -49,7 +49,7 @@
         {
           "name": "tornado4",
           "parent": "tornado3",
-          "pivot": [0, 15, 0],
+          "pivot": [0, 17, 0],
           "cubes": [
             {
               "origin": [-5, 17, -5],
@@ -61,7 +61,7 @@
         {
           "name": "tornado5",
           "parent": "tornado4",
-          "pivot": [0, 24, 0],
+          "pivot": [0, 26, 0],
           "cubes": [
             {
               "origin": [-5, 26, -5],
@@ -73,7 +73,7 @@
         {
           "name": "face",
           "parent": "tornado5",
-          "pivot": [0, 28.5, 0],
+          "pivot": [0, 30.5, 0],
           "cubes": [
             {
               "origin": [-4.5, 26.5, 0],
@@ -85,7 +85,7 @@
         {
           "name": "tornado6",
           "parent": "tornado5",
-          "pivot": [0, 33, 0],
+          "pivot": [0, 35, 0],
           "cubes": [
             {
               "origin": [-7, 35, -7],

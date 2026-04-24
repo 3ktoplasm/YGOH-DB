@@ -13,7 +13,7 @@
       "bones": [
         {
           "name": "head",
-          "pivot": [0, 14.5, -0.5],
+          "pivot": [0, 16.5, -0.5],
           "cubes": [
             {
               "origin": [-5, 11, -5],
@@ -30,7 +30,7 @@
         {
           "name": "body",
           "parent": "head",
-          "pivot": [0, 9, 0],
+          "pivot": [0, 11, 0],
           "cubes": [
             {
               "origin": [-3, 3, -3],
@@ -42,7 +42,7 @@
         {
           "name": "body2",
           "parent": "body",
-          "pivot": [0, 1, 0],
+          "pivot": [0, 3, 0],
           "cubes": [
             {
               "origin": [-3, -5, -3],
@@ -54,7 +54,7 @@
         {
           "name": "body4",
           "parent": "body2",
-          "pivot": [0, -7, 0],
+          "pivot": [0, -5, 0],
           "cubes": [
             {
               "origin": [-2, -11, -2],
@@ -66,7 +66,7 @@
         {
           "name": "body5",
           "parent": "body4",
-          "pivot": [0, -13, 0],
+          "pivot": [0, -11, 0],
           "cubes": [
             {
               "origin": [-1, -14, -1],
@@ -78,7 +78,7 @@
         {
           "name": "arm",
           "parent": "head",
-          "pivot": [7.5, 4.5, -5.5],
+          "pivot": [7.5, 6.5, -5.5],
           "cubes": [
             {
               "origin": [6, 5, -10],
@@ -90,7 +90,7 @@
         {
           "name": "hand",
           "parent": "arm",
-          "pivot": [7.5, 4.5, -10],
+          "pivot": [7.5, 6.5, -10],
           "cubes": [
             {
               "origin": [6, 5, -13],
@@ -102,7 +102,7 @@
         {
           "name": "sword",
           "parent": "hand",
-          "pivot": [7.5, 4, -12],
+          "pivot": [7.5, 6, -12],
           "cubes": [
             {
               "origin": [5, 4, -12],
@@ -114,7 +114,7 @@
         {
           "name": "arm2",
           "parent": "head",
-          "pivot": [-7.5, 4.5, -5.5],
+          "pivot": [-7.5, 6.5, -5.5],
           "cubes": [
             {
               "origin": [-9, 5, -10],
@@ -127,7 +127,7 @@
         {
           "name": "hand2",
           "parent": "arm2",
-          "pivot": [-7.5, 4.5, -10],
+          "pivot": [-7.5, 6.5, -10],
           "cubes": [
             {
               "origin": [-9, 5, -13],
@@ -140,7 +140,7 @@
         {
           "name": "sword2",
           "parent": "hand2",
-          "pivot": [-7.5, 4, -12],
+          "pivot": [-7.5, 6, -12],
           "cubes": [
             {
               "origin": [-10, 4, -12],

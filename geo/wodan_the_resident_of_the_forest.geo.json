@@ -13,7 +13,7 @@
       "bones": [
         {
           "name": "lower_body",
-          "pivot": [0, 14.5, 0],
+          "pivot": [0, 16.5, 0],
           "cubes": [
             {
               "origin": [-4, 14, -2],
@@ -25,7 +25,7 @@
         {
           "name": "upper_body",
           "parent": "lower_body",
-          "pivot": [0, 17, 0],
+          "pivot": [0, 19, 0],
           "cubes": [
             {
               "origin": [-5, 19, -2],
@@ -48,7 +48,7 @@
         {
           "name": "arm2",
           "parent": "upper_body",
-          "pivot": [-5, 20, 0],
+          "pivot": [-5, 22, 0],
           "cubes": [
             {
               "origin": [-8, 14, -1.5],
@@ -61,7 +61,7 @@
         {
           "name": "lowerarm2",
           "parent": "arm2",
-          "pivot": [-7, 12, 0],
+          "pivot": [-7, 14, 0],
           "cubes": [
             {
               "origin": [-8, 5, -1.5],
@@ -74,7 +74,7 @@
         {
           "name": "arm",
           "parent": "upper_body",
-          "pivot": [5, 20, 0],
+          "pivot": [5, 22, 0],
           "cubes": [
             {
               "origin": [5, 14, -1.5],
@@ -86,7 +86,7 @@
         {
           "name": "lowerarm",
           "parent": "arm",
-          "pivot": [7, 12, 0],
+          "pivot": [7, 14, 0],
           "cubes": [
             {
               "origin": [5, 5, -1.5],
@@ -98,7 +98,7 @@
         {
           "name": "head",
           "parent": "upper_body",
-          "pivot": [0, 24, 0],
+          "pivot": [0, 26, 0],
           "cubes": [
             {
               "origin": [-3.5, 26, -3.5],
@@ -121,7 +121,7 @@
         {
           "name": "vines",
           "parent": "lower_body",
-          "pivot": [0, 12, 0],
+          "pivot": [0, 14, 0],
           "cubes": [
             {
               "origin": [-5, 9, -5],
@@ -134,7 +134,7 @@
         {
           "name": "shell",
           "parent": "vines",
-          "pivot": [0, 7.25, 0],
+          "pivot": [0, 9.25, 0],
           "cubes": [
             {
               "origin": [-7, 2, -7],

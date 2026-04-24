@@ -13,7 +13,7 @@
       "bones": [
         {
           "name": "body",
-          "pivot": [0, 29.6, 0],
+          "pivot": [0, 31.6, 0],
           "cubes": [
             {
               "origin": [-10, 2, -10],
@@ -45,7 +45,7 @@
         {
           "name": "arm3",
           "parent": "body",
-          "pivot": [-8, 24.5, -5],
+          "pivot": [-8, 26.5, -5],
           "cubes": [
             {
               "origin": [-19, 23.5, -8],
@@ -57,7 +57,7 @@
         {
           "name": "arm4",
           "parent": "arm3",
-          "pivot": [-19, 24.5, -5],
+          "pivot": [-19, 26.5, -5],
           "cubes": [
             {
               "origin": [-28, 24, -7.5],
@@ -69,7 +69,7 @@
         {
           "name": "hand2",
           "parent": "arm4",
-          "pivot": [-28, 25.5, -5],
+          "pivot": [-28, 27.5, -5],
           "cubes": [
             {
               "origin": [-31, 26.5, -8],
@@ -81,7 +81,7 @@
         {
           "name": "thumb2",
           "parent": "hand2",
-          "pivot": [-29.5, 28, -8],
+          "pivot": [-29.5, 30, -8],
           "cubes": [
             {
               "origin": [-31, 27.5, -10],
@@ -93,7 +93,7 @@
         {
           "name": "arm",
           "parent": "body",
-          "pivot": [8, 24.5, -5],
+          "pivot": [8, 26.5, -5],
           "cubes": [
             {
               "origin": [8, 23.5, -8],
@@ -106,7 +106,7 @@
         {
           "name": "arm2",
           "parent": "arm",
-          "pivot": [19, 24.5, -5],
+          "pivot": [19, 26.5, -5],
           "cubes": [
             {
               "origin": [19, 24, -7.5],
@@ -119,7 +119,7 @@
         {
           "name": "hand",
           "parent": "arm2",
-          "pivot": [28, 25.5, -5],
+          "pivot": [28, 27.5, -5],
           "cubes": [
             {
               "origin": [28, 26.5, -8],
@@ -132,7 +132,7 @@
         {
           "name": "thumb",
           "parent": "hand",
-          "pivot": [29.5, 28, -8],
+          "pivot": [29.5, 30, -8],
           "cubes": [
             {
               "origin": [28, 27.5, -10],

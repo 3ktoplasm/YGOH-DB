@@ -13,12 +13,12 @@
       "bones": [
         {
           "name": "body",
-          "pivot": [0, 11, 0]
+          "pivot": [0, 13, 0]
         },
         {
           "name": "sword",
           "parent": "body",
-          "pivot": [0, 13, 0],
+          "pivot": [0, 15, 0],
           "cubes": [
             {
               "origin": [0, 2, -5],
@@ -30,7 +30,7 @@
         {
           "name": "coffin",
           "parent": "body",
-          "pivot": [0.02874, 8.57143, 3.21265],
+          "pivot": [0.02874, 10.57143, 3.21265],
           "cubes": [
             {
               "origin": [-1.92442, 8, -15.92747],
@@ -82,7 +82,7 @@
         {
           "name": "lid",
           "parent": "coffin",
-          "pivot": [-8.5, 12, 10.5],
+          "pivot": [-8.5, 14, 10.5],
           "cubes": [
             {
               "origin": [-9, 14, -16.5],

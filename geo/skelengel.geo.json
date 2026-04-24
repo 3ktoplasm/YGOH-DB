@@ -13,7 +13,7 @@
       "bones": [
         {
           "name": "belt",
-          "pivot": [0, 13, 0],
+          "pivot": [0, 15, 0],
           "cubes": [
             {
               "origin": [-4, 14, -2],
@@ -25,7 +25,7 @@
         {
           "name": "tassels",
           "parent": "belt",
-          "pivot": [0, 12.5, -2],
+          "pivot": [0, 14.5, -2],
           "cubes": [
             {
               "origin": [-2, 9.5, -2],
@@ -37,7 +37,7 @@
         {
           "name": "hand2",
           "parent": "belt",
-          "pivot": [-7, 14.5, 0],
+          "pivot": [-7, 16.5, 0],
           "cubes": [
             {
               "origin": [-9, 14, -2],
@@ -50,7 +50,7 @@
         {
           "name": "hand",
           "parent": "belt",
-          "pivot": [7, 14.5, 0],
+          "pivot": [7, 16.5, 0],
           "cubes": [
             {
               "origin": [5, 14, -2],
@@ -62,7 +62,7 @@
         {
           "name": "bow",
           "parent": "hand",
-          "pivot": [7, 13.5, -1],
+          "pivot": [7, 15.5, -1],
           "cubes": [
             {
               "origin": [7, 6, -8],
@@ -74,7 +74,7 @@
         {
           "name": "foot",
           "parent": "belt",
-          "pivot": [3, 2.5, 0],
+          "pivot": [3, 4.5, 0],
           "cubes": [
             {
               "origin": [1, 2, -2],
@@ -86,7 +86,7 @@
         {
           "name": "foot2",
           "parent": "belt",
-          "pivot": [-3, 2.5, 0],
+          "pivot": [-3, 4.5, 0],
           "cubes": [
             {
               "origin": [-5, 2, -2],
@@ -99,7 +99,7 @@
         {
           "name": "halo",
           "parent": "belt",
-          "pivot": [0, 29, 0],
+          "pivot": [0, 31, 0],
           "cubes": [
             {
               "origin": [-5.5, 31, -5.5],
@@ -111,7 +111,7 @@
         {
           "name": "wing2",
           "parent": "belt",
-          "pivot": [-3, 18.5, 4.5],
+          "pivot": [-3, 20.5, 4.5],
           "cubes": [
             {
               "origin": [-3, 15, 4],
@@ -124,7 +124,7 @@
         {
           "name": "lowerwing2",
           "parent": "wing2",
-          "pivot": [-3, 18.5, 13],
+          "pivot": [-3, 20.5, 13],
           "cubes": [
             {
               "origin": [-3, 15, 13],
@@ -137,7 +137,7 @@
         {
           "name": "wing",
           "parent": "belt",
-          "pivot": [3, 18.5, 4.5],
+          "pivot": [3, 20.5, 4.5],
           "cubes": [
             {
               "origin": [3, 15, 4],
@@ -149,7 +149,7 @@
         {
           "name": "lowerwing",
           "parent": "wing",
-          "pivot": [3, 18.5, 13],
+          "pivot": [3, 20.5, 13],
           "cubes": [
             {
               "origin": [3, 15, 13],

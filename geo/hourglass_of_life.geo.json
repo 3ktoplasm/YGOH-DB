@@ -13,7 +13,7 @@
       "bones": [
         {
           "name": "body",
-          "pivot": [0, 5.71429, 0],
+          "pivot": [0, 7.71429, 0],
           "rotation": [0, -90, 0],
           "cubes": [
             {
@@ -56,7 +56,7 @@
         {
           "name": "wing",
           "parent": "body",
-          "pivot": [0.25, 5.5, 0.5],
+          "pivot": [0.25, 7.5, 0.5],
           "cubes": [
             {
               "origin": [0.25, 4.5, 0.5],
@@ -71,7 +71,7 @@
         {
           "name": "wing2",
           "parent": "body",
-          "pivot": [0.25, 5.5, -0.5],
+          "pivot": [0.25, 7.5, -0.5],
           "cubes": [
             {
               "origin": [0.25, 4.5, -8.5],

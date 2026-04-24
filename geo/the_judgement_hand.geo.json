@@ -13,12 +13,12 @@
       "bones": [
         {
           "name": "body",
-          "pivot": [1, 12, 0]
+          "pivot": [1, 14, 0]
         },
         {
           "name": "arm",
           "parent": "body",
-          "pivot": [1, 12, 0],
+          "pivot": [1, 14, 0],
           "cubes": [
             {
               "origin": [-1, 12, -8],
@@ -35,7 +35,7 @@
         {
           "name": "palm",
           "parent": "arm",
-          "pivot": [1, 12.5, -8],
+          "pivot": [1, 14.5, -8],
           "cubes": [
             {
               "origin": [-1.5, 13.5, -13],
@@ -47,7 +47,7 @@
         {
           "name": "finger",
           "parent": "palm",
-          "pivot": [-0.9, 12.75, -13],
+          "pivot": [-0.9, 14.75, -13],
           "cubes": [
             {
               "origin": [-1.4, 14.25, -16],
@@ -59,7 +59,7 @@
         {
           "name": "fingore",
           "parent": "finger",
-          "pivot": [-0.9, 12.75, -16],
+          "pivot": [-0.9, 14.75, -16],
           "cubes": [
             {
               "origin": [-1.4, 14.25, -18],
@@ -71,7 +71,7 @@
         {
           "name": "fingogre",
           "parent": "fingore",
-          "pivot": [-0.9, 12.75, -18],
+          "pivot": [-0.9, 14.75, -18],
           "cubes": [
             {
               "origin": [-1.4, 14.25, -20],
@@ -83,7 +83,7 @@
         {
           "name": "finger2",
           "parent": "palm",
-          "pivot": [0.35, 12.75, -13],
+          "pivot": [0.35, 14.75, -13],
           "cubes": [
             {
               "origin": [-0.15, 14.25, -16],
@@ -95,7 +95,7 @@
         {
           "name": "fingore2",
           "parent": "finger2",
-          "pivot": [0.35, 12.75, -16],
+          "pivot": [0.35, 14.75, -16],
           "cubes": [
             {
               "origin": [-0.15, 14.25, -18],
@@ -107,7 +107,7 @@
         {
           "name": "fingogre2",
           "parent": "fingore2",
-          "pivot": [0.35, 12.75, -18],
+          "pivot": [0.35, 14.75, -18],
           "cubes": [
             {
               "origin": [-0.15, 14.25, -20],
@@ -119,7 +119,7 @@
         {
           "name": "finger3",
           "parent": "palm",
-          "pivot": [1.7, 12.75, -13],
+          "pivot": [1.7, 14.75, -13],
           "cubes": [
             {
               "origin": [1.2, 14.25, -16],
@@ -131,7 +131,7 @@
         {
           "name": "fingore3",
           "parent": "finger3",
-          "pivot": [1.7, 12.75, -16],
+          "pivot": [1.7, 14.75, -16],
           "cubes": [
             {
               "origin": [1.2, 14.25, -18],
@@ -143,7 +143,7 @@
         {
           "name": "fingogre3",
           "parent": "fingore3",
-          "pivot": [1.7, 12.75, -18],
+          "pivot": [1.7, 14.75, -18],
           "cubes": [
             {
               "origin": [1.2, 14.25, -20],
@@ -155,7 +155,7 @@
         {
           "name": "finger4",
           "parent": "palm",
-          "pivot": [2.95, 12.5, -13],
+          "pivot": [2.95, 14.5, -13],
           "cubes": [
             {
               "origin": [2.45, 14, -16],
@@ -167,7 +167,7 @@
         {
           "name": "fingore4",
           "parent": "finger4",
-          "pivot": [2.95, 12.5, -16],
+          "pivot": [2.95, 14.5, -16],
           "cubes": [
             {
               "origin": [2.45, 14, -18],
@@ -179,7 +179,7 @@
         {
           "name": "fingogre4",
           "parent": "fingore4",
-          "pivot": [2.95, 12.5, -18],
+          "pivot": [2.95, 14.5, -18],
           "cubes": [
             {
               "origin": [2.45, 14, -20],
@@ -191,7 +191,7 @@
         {
           "name": "finger5",
           "parent": "palm",
-          "pivot": [-1.45, 12.75, -10],
+          "pivot": [-1.45, 14.75, -10],
           "cubes": [
             {
               "origin": [-1.95, 14.25, -13],
@@ -203,7 +203,7 @@
         {
           "name": "fingore5",
           "parent": "finger5",
-          "pivot": [-1.45, 12.75, -13],
+          "pivot": [-1.45, 14.75, -13],
           "cubes": [
             {
               "origin": [-1.95, 14.25, -15],

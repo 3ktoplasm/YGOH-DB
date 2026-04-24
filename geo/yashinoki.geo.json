@@ -13,7 +13,7 @@
       "bones": [
         {
           "name": "roots",
-          "pivot": [0, 0, 0],
+          "pivot": [0, 2, 0],
           "cubes": [
             {
               "origin": [-14, 2, -14],
@@ -25,7 +25,7 @@
         {
           "name": "trunk",
           "parent": "roots",
-          "pivot": [0, 0, 0],
+          "pivot": [0, 2, 0],
           "cubes": [
             {
               "origin": [-7, 2, -7],
@@ -37,7 +37,7 @@
         {
           "name": "trunk2",
           "parent": "trunk",
-          "pivot": [0, 10, 0],
+          "pivot": [0, 12, 0],
           "cubes": [
             {
               "origin": [-6.5, 12, -6.5],
@@ -49,7 +49,7 @@
         {
           "name": "trunk3",
           "parent": "trunk2",
-          "pivot": [0, 20, 0],
+          "pivot": [0, 22, 0],
           "cubes": [
             {
               "origin": [-6, 22, -6],
@@ -61,7 +61,7 @@
         {
           "name": "trunk4",
           "parent": "trunk3",
-          "pivot": [0, 30, 0],
+          "pivot": [0, 32, 0],
           "cubes": [
             {
               "origin": [-6, 32, -6],
@@ -73,7 +73,7 @@
         {
           "name": "trunk5",
           "parent": "trunk4",
-          "pivot": [0, 40, 0],
+          "pivot": [0, 42, 0],
           "cubes": [
             {
               "origin": [-6, 42, -6],
@@ -85,7 +85,7 @@
         {
           "name": "trunk6",
           "parent": "trunk5",
-          "pivot": [0, 50, 0],
+          "pivot": [0, 52, 0],
           "cubes": [
             {
               "origin": [-6, 52, -6],
@@ -97,7 +97,7 @@
         {
           "name": "trunk7",
           "parent": "trunk6",
-          "pivot": [0, 60, 0],
+          "pivot": [0, 62, 0],
           "cubes": [
             {
               "origin": [-6, 62, -6],
@@ -109,7 +109,7 @@
         {
           "name": "trunk8",
           "parent": "trunk7",
-          "pivot": [0, 70, 0],
+          "pivot": [0, 72, 0],
           "cubes": [
             {
               "origin": [-6, 72, -6],
@@ -121,7 +121,7 @@
         {
           "name": "trunk9",
           "parent": "trunk8",
-          "pivot": [0, 80, 0],
+          "pivot": [0, 82, 0],
           "cubes": [
             {
               "origin": [-5, 82, -5],
@@ -133,7 +133,7 @@
         {
           "name": "trunk10",
           "parent": "trunk9",
-          "pivot": [0, 90, 0],
+          "pivot": [0, 92, 0],
           "cubes": [
             {
               "origin": [-4, 92, -4],
@@ -145,7 +145,7 @@
         {
           "name": "trunk11",
           "parent": "trunk10",
-          "pivot": [0, 100, 0],
+          "pivot": [0, 102, 0],
           "cubes": [
             {
               "origin": [-3, 102, -3],
@@ -157,7 +157,7 @@
         {
           "name": "trunk12",
           "parent": "trunk11",
-          "pivot": [0, 110, 0],
+          "pivot": [0, 112, 0],
           "cubes": [
             {
               "origin": [-2, 112, -2],
@@ -169,12 +169,12 @@
         {
           "name": "leaves",
           "parent": "trunk12",
-          "pivot": [0, 120, 0]
+          "pivot": [0, 122, 0]
         },
         {
           "name": "leaf6",
           "parent": "leaves",
-          "pivot": [-2, 120, 1],
+          "pivot": [-2, 122, 1],
           "rotation": [0, -120, 0],
           "cubes": [
             {
@@ -187,7 +187,7 @@
         {
           "name": "lowerleaf6",
           "parent": "leaf6",
-          "pivot": [-2, 120, -31],
+          "pivot": [-2, 122, -31],
           "cubes": [
             {
               "origin": [-10, 122, -63],
@@ -199,7 +199,7 @@
         {
           "name": "leaf5",
           "parent": "leaves",
-          "pivot": [-2, 120, 1],
+          "pivot": [-2, 122, 1],
           "rotation": [0, -60, 0],
           "cubes": [
             {
@@ -212,7 +212,7 @@
         {
           "name": "lowerleaf5",
           "parent": "leaf5",
-          "pivot": [-2, 120, -31],
+          "pivot": [-2, 122, -31],
           "cubes": [
             {
               "origin": [-10, 122, -63],
@@ -224,7 +224,7 @@
         {
           "name": "leaf4",
           "parent": "leaves",
-          "pivot": [-2, 120, 1],
+          "pivot": [-2, 122, 1],
           "rotation": [0, 60, 0],
           "cubes": [
             {
@@ -237,7 +237,7 @@
         {
           "name": "lowerleaf4",
           "parent": "leaf4",
-          "pivot": [-2, 120, -31],
+          "pivot": [-2, 122, -31],
           "cubes": [
             {
               "origin": [-10, 122, -63],
@@ -249,7 +249,7 @@
         {
           "name": "leaf3",
           "parent": "leaves",
-          "pivot": [-2, 120, 1],
+          "pivot": [-2, 122, 1],
           "rotation": [0, 120, 0],
           "cubes": [
             {
@@ -262,7 +262,7 @@
         {
           "name": "lowerleaf3",
           "parent": "leaf3",
-          "pivot": [-2, 120, -31],
+          "pivot": [-2, 122, -31],
           "cubes": [
             {
               "origin": [-10, 122, -63],
@@ -274,7 +274,7 @@
         {
           "name": "leaf2",
           "parent": "leaves",
-          "pivot": [0, 120, 2],
+          "pivot": [0, 122, 2],
           "rotation": [0, 180, 0],
           "cubes": [
             {
@@ -287,7 +287,7 @@
         {
           "name": "lowerleaf2",
           "parent": "leaf2",
-          "pivot": [0, 120, -30],
+          "pivot": [0, 122, -30],
           "cubes": [
             {
               "origin": [-8, 122, -62],
@@ -299,7 +299,7 @@
         {
           "name": "leaf",
           "parent": "leaves",
-          "pivot": [0, 120, -2],
+          "pivot": [0, 122, -2],
           "cubes": [
             {
               "origin": [-8, 122, -34],
@@ -311,7 +311,7 @@
         {
           "name": "lowerleaf",
           "parent": "leaf",
-          "pivot": [0, 120, -34],
+          "pivot": [0, 122, -34],
           "cubes": [
             {
               "origin": [-8, 122, -66],
@@ -323,7 +323,7 @@
         {
           "name": "coconut2",
           "parent": "trunk12",
-          "pivot": [3, 120, -2],
+          "pivot": [3, 122, -2],
           "cubes": [
             {
               "origin": [0, 114, -8],
@@ -335,7 +335,7 @@
         {
           "name": "coconut",
           "parent": "trunk12",
-          "pivot": [-3, 120, -2],
+          "pivot": [-3, 122, -2],
           "cubes": [
             {
               "origin": [-6, 114, -8],

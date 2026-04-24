@@ -13,7 +13,7 @@
       "bones": [
         {
           "name": "body",
-          "pivot": [0, 6.12944, 0.25],
+          "pivot": [0, 8.129439999999999, 0.25],
           "cubes": [
             {
               "origin": [-8, 2, -11],
@@ -69,7 +69,7 @@
         {
           "name": "tail",
           "parent": "body",
-          "pivot": [0, 3.90711, 12],
+          "pivot": [0, 5.907109999999999, 12],
           "cubes": [
             {
               "origin": [6, 7.5, 12],
@@ -110,7 +110,7 @@
         {
           "name": "tail2",
           "parent": "tail",
-          "pivot": [0, 1.98083, 22.125],
+          "pivot": [0, 3.98083, 22.125],
           "cubes": [
             {
               "origin": [-3, 2, 22],
@@ -141,7 +141,7 @@
         {
           "name": "tail3",
           "parent": "tail2",
-          "pivot": [0, 1, 31.83333],
+          "pivot": [0, 3, 31.83333],
           "cubes": [
             {
               "origin": [-2, 2, 32],
@@ -165,7 +165,7 @@
         {
           "name": "tail4",
           "parent": "tail3",
-          "pivot": [0, 1, 42],
+          "pivot": [0, 3, 42],
           "cubes": [
             {
               "origin": [-8, 3, 42],
@@ -177,7 +177,7 @@
         {
           "name": "head",
           "parent": "body",
-          "pivot": [0, 4.62044, -10.9],
+          "pivot": [0, 6.62044, -10.9],
           "cubes": [
             {
               "origin": [-7, 2, -18],
@@ -213,7 +213,7 @@
         {
           "name": "jaw",
           "parent": "head",
-          "pivot": [0, 2, -18],
+          "pivot": [0, 4, -18],
           "cubes": [
             {
               "origin": [-6, 2, -24],
@@ -225,7 +225,7 @@
         {
           "name": "flipper2",
           "parent": "body",
-          "pivot": [-8, 4, 4],
+          "pivot": [-8, 6, 4],
           "cubes": [
             {
               "origin": [-20, 6, -5],
@@ -238,7 +238,7 @@
         {
           "name": "lowerflipper2",
           "parent": "flipper2",
-          "pivot": [-20, 4, 4],
+          "pivot": [-20, 6, 4],
           "cubes": [
             {
               "origin": [-31, 6, -5],
@@ -251,7 +251,7 @@
         {
           "name": "flipper",
           "parent": "body",
-          "pivot": [8, 4, 4],
+          "pivot": [8, 6, 4],
           "cubes": [
             {
               "origin": [8, 6, -5],
@@ -263,7 +263,7 @@
         {
           "name": "lowerflipper",
           "parent": "flipper",
-          "pivot": [20, 4, 4],
+          "pivot": [20, 6, 4],
           "cubes": [
             {
               "origin": [20, 6, -5],

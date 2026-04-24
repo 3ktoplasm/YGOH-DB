@@ -13,7 +13,7 @@
       "bones": [
         {
           "name": "body",
-          "pivot": [0, 2.5, 4.5],
+          "pivot": [0, 4.5, 4.5],
           "cubes": [
             {
               "origin": [-6, 2, -1],
@@ -25,7 +25,7 @@
         {
           "name": "fin2",
           "parent": "body",
-          "pivot": [6, 4, 2.5],
+          "pivot": [6, 6, 2.5],
           "cubes": [
             {
               "origin": [6, 6, -1],
@@ -38,7 +38,7 @@
         {
           "name": "tongue",
           "parent": "body",
-          "pivot": [0, 2.5, -1],
+          "pivot": [0, 4.5, -1],
           "cubes": [
             {
               "origin": [-1.5, 4.5, -6],
@@ -50,7 +50,7 @@
         {
           "name": "tongue4",
           "parent": "tongue",
-          "pivot": [1, 2.5, -6],
+          "pivot": [1, 4.5, -6],
           "cubes": [
             {
               "origin": [0.5, 4.5, -9],
@@ -62,7 +62,7 @@
         {
           "name": "tongue3",
           "parent": "tongue",
-          "pivot": [-1, 2.5, -6],
+          "pivot": [-1, 4.5, -6],
           "cubes": [
             {
               "origin": [-1.5, 4.5, -9],
@@ -74,7 +74,7 @@
         {
           "name": "tongue2",
           "parent": "tongue",
-          "pivot": [0, 2.5, -6],
+          "pivot": [0, 4.5, -6],
           "cubes": [
             {
               "origin": [-0.5, 4.5, -9],
@@ -86,7 +86,7 @@
         {
           "name": "tail",
           "parent": "body",
-          "pivot": [0, 4, 10],
+          "pivot": [0, 6, 10],
           "cubes": [
             {
               "origin": [-4, 6, 10],
@@ -98,7 +98,7 @@
         {
           "name": "fin",
           "parent": "body",
-          "pivot": [-6, 4, 2.5],
+          "pivot": [-6, 6, 2.5],
           "cubes": [
             {
               "origin": [-14, 6, -1],

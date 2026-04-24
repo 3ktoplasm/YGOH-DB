@@ -13,7 +13,7 @@
       "bones": [
         {
           "name": "body",
-          "pivot": [0, 9, 0],
+          "pivot": [0, 11, 0],
           "cubes": [
             {
               "origin": [-4, 7, -4],
@@ -25,7 +25,7 @@
         {
           "name": "hand",
           "parent": "body",
-          "pivot": [3.5, 6, -4],
+          "pivot": [3.5, 8, -4],
           "cubes": [
             {
               "origin": [2, 6.5, -5],
@@ -38,7 +38,7 @@
         {
           "name": "handclaw",
           "parent": "hand",
-          "pivot": [3.5, 4.5, -5],
+          "pivot": [3.5, 6.5, -5],
           "cubes": [
             {
               "origin": [2, 5.5, -5],
@@ -51,7 +51,7 @@
         {
           "name": "foot2",
           "parent": "body",
-          "pivot": [-2, 5.5, 3],
+          "pivot": [-2, 7.5, 3],
           "cubes": [
             {
               "origin": [-3.5, 4.5, 2],
@@ -63,7 +63,7 @@
         {
           "name": "footclaw2",
           "parent": "foot2",
-          "pivot": [-2, 2.5, 2],
+          "pivot": [-2, 4.5, 2],
           "cubes": [
             {
               "origin": [-3.5, 3.5, 2],
@@ -75,7 +75,7 @@
         {
           "name": "hand2",
           "parent": "body",
-          "pivot": [-3.5, 6, -4],
+          "pivot": [-3.5, 8, -4],
           "cubes": [
             {
               "origin": [-5, 6.5, -5],
@@ -87,7 +87,7 @@
         {
           "name": "handclaw2",
           "parent": "hand2",
-          "pivot": [-3.5, 4.5, -5],
+          "pivot": [-3.5, 6.5, -5],
           "cubes": [
             {
               "origin": [-5, 5.5, -5],
@@ -99,7 +99,7 @@
         {
           "name": "foot",
           "parent": "body",
-          "pivot": [2, 5.5, 3],
+          "pivot": [2, 7.5, 3],
           "cubes": [
             {
               "origin": [0.5, 4.5, 2],
@@ -112,7 +112,7 @@
         {
           "name": "footclaw",
           "parent": "foot",
-          "pivot": [2, 2.5, 2],
+          "pivot": [2, 4.5, 2],
           "cubes": [
             {
               "origin": [0.5, 3.5, 2],

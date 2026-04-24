@@ -13,7 +13,7 @@
       "bones": [
         {
           "name": "stem",
-          "pivot": [0, 0, 0],
+          "pivot": [0, 2, 0],
           "cubes": [
             {
               "origin": [-0.5, 2, -0.5],
@@ -25,7 +25,7 @@
         {
           "name": "leaf6",
           "parent": "stem",
-          "pivot": [0, 0.5, -0.5],
+          "pivot": [0, 2.5, -0.5],
           "rotation": [0, 90, 0],
           "cubes": [
             {
@@ -38,7 +38,7 @@
         {
           "name": "leaf5",
           "parent": "stem",
-          "pivot": [-0.5, 0.5, 0],
+          "pivot": [-0.5, 2.5, 0],
           "rotation": [0, 180, 0],
           "cubes": [
             {
@@ -51,7 +51,7 @@
         {
           "name": "leaf4",
           "parent": "stem",
-          "pivot": [0, 0.5, 0.5],
+          "pivot": [0, 2.5, 0.5],
           "rotation": [0, -90, 0],
           "cubes": [
             {
@@ -64,7 +64,7 @@
         {
           "name": "leaf3",
           "parent": "stem",
-          "pivot": [0.5, 0.5, -0.5],
+          "pivot": [0.5, 2.5, -0.5],
           "cubes": [
             {
               "origin": [0.5, 2.5, -4.5],
@@ -76,7 +76,7 @@
         {
           "name": "stem2",
           "parent": "stem",
-          "pivot": [0, 3, 0],
+          "pivot": [0, 5, 0],
           "cubes": [
             {
               "origin": [-0.5, 5, -0.5],
@@ -88,7 +88,7 @@
         {
           "name": "stem3",
           "parent": "stem2",
-          "pivot": [0, 6, 0],
+          "pivot": [0, 8, 0],
           "cubes": [
             {
               "origin": [-0.5, 8, -0.5],
@@ -100,7 +100,7 @@
         {
           "name": "stem4",
           "parent": "stem3",
-          "pivot": [0, 9, 0],
+          "pivot": [0, 11, 0],
           "cubes": [
             {
               "origin": [-0.5, 11, -0.5],
@@ -112,7 +112,7 @@
         {
           "name": "stem5",
           "parent": "stem4",
-          "pivot": [0, 12, 0],
+          "pivot": [0, 14, 0],
           "cubes": [
             {
               "origin": [-0.5, 14, -0.5],
@@ -124,7 +124,7 @@
         {
           "name": "leaf2",
           "parent": "stem5",
-          "pivot": [0.5, 14.5, 0],
+          "pivot": [0.5, 16.5, 0],
           "cubes": [
             {
               "origin": [0.5, 13, 0],
@@ -136,7 +136,7 @@
         {
           "name": "stem6",
           "parent": "stem5",
-          "pivot": [0, 15, 0],
+          "pivot": [0, 17, 0],
           "cubes": [
             {
               "origin": [-0.5, 17, -0.5],
@@ -148,7 +148,7 @@
         {
           "name": "stem7",
           "parent": "stem6",
-          "pivot": [0, 18, 0],
+          "pivot": [0, 20, 0],
           "cubes": [
             {
               "origin": [-0.5, 20, -0.5],
@@ -160,7 +160,7 @@
         {
           "name": "leaf",
           "parent": "stem7",
-          "pivot": [-0.5, 20.5, 0],
+          "pivot": [-0.5, 22.5, 0],
           "cubes": [
             {
               "origin": [-9.5, 19, 0],
@@ -172,7 +172,7 @@
         {
           "name": "stem8",
           "parent": "stem7",
-          "pivot": [0, 21, 0],
+          "pivot": [0, 23, 0],
           "cubes": [
             {
               "origin": [-0.5, 23, -0.5],
@@ -184,7 +184,7 @@
         {
           "name": "stem13",
           "parent": "stem8",
-          "pivot": [0.5, 24, 0],
+          "pivot": [0.5, 26, 0],
           "cubes": [
             {
               "origin": [0, 26, -0.5],
@@ -196,7 +196,7 @@
         {
           "name": "stem14",
           "parent": "stem13",
-          "pivot": [0.5, 27, 0],
+          "pivot": [0.5, 29, 0],
           "cubes": [
             {
               "origin": [0, 29, -0.5],
@@ -208,7 +208,7 @@
         {
           "name": "stem15",
           "parent": "stem14",
-          "pivot": [0.5, 30, 0],
+          "pivot": [0.5, 32, 0],
           "cubes": [
             {
               "origin": [0, 32, -0.5],
@@ -220,7 +220,7 @@
         {
           "name": "stem16",
           "parent": "stem15",
-          "pivot": [0.5, 33, 0],
+          "pivot": [0.5, 35, 0],
           "cubes": [
             {
               "origin": [0, 35, -0.5],
@@ -232,7 +232,7 @@
         {
           "name": "flower2",
           "parent": "stem16",
-          "pivot": [0.5, 36, -0.5],
+          "pivot": [0.5, 38, -0.5],
           "cubes": [
             {
               "origin": [-0.5, 37, -5.5],
@@ -272,7 +272,7 @@
         {
           "name": "petal5",
           "parent": "flower2",
-          "pivot": [0.5, 34, -13.5],
+          "pivot": [0.5, 36, -13.5],
           "rotation": [0, 0, -90],
           "cubes": [
             {
@@ -285,7 +285,7 @@
         {
           "name": "petal6",
           "parent": "flower2",
-          "pivot": [0.5, 38, -13.5],
+          "pivot": [0.5, 40, -13.5],
           "rotation": [0, 0, 90],
           "cubes": [
             {
@@ -298,7 +298,7 @@
         {
           "name": "petal7",
           "parent": "flower2",
-          "pivot": [2.5, 36, -13.5],
+          "pivot": [2.5, 38, -13.5],
           "rotation": [0, 0, -180],
           "cubes": [
             {
@@ -311,7 +311,7 @@
         {
           "name": "petal8",
           "parent": "flower2",
-          "pivot": [-1.5, 36, -13.5],
+          "pivot": [-1.5, 38, -13.5],
           "cubes": [
             {
               "origin": [-1.5, 36, -16.5],
@@ -323,7 +323,7 @@
         {
           "name": "stem9",
           "parent": "stem8",
-          "pivot": [-0.5, 24, 0],
+          "pivot": [-0.5, 26, 0],
           "cubes": [
             {
               "origin": [-1, 26, -0.5],
@@ -335,7 +335,7 @@
         {
           "name": "stem10",
           "parent": "stem9",
-          "pivot": [-0.5, 27, 0],
+          "pivot": [-0.5, 29, 0],
           "cubes": [
             {
               "origin": [-1, 29, -0.5],
@@ -347,7 +347,7 @@
         {
           "name": "stem11",
           "parent": "stem10",
-          "pivot": [-0.5, 30, 0],
+          "pivot": [-0.5, 32, 0],
           "cubes": [
             {
               "origin": [-1, 32, -0.5],
@@ -359,7 +359,7 @@
         {
           "name": "stem12",
           "parent": "stem11",
-          "pivot": [-0.5, 33, 0],
+          "pivot": [-0.5, 35, 0],
           "cubes": [
             {
               "origin": [-1, 35, -0.5],
@@ -371,7 +371,7 @@
         {
           "name": "flower",
           "parent": "stem12",
-          "pivot": [-0.5, 36, -0.5],
+          "pivot": [-0.5, 38, -0.5],
           "cubes": [
             {
               "origin": [-1.5, 37, -5.5],
@@ -411,7 +411,7 @@
         {
           "name": "petal4",
           "parent": "flower",
-          "pivot": [-0.5, 34, -13.5],
+          "pivot": [-0.5, 36, -13.5],
           "rotation": [0, 0, -90],
           "cubes": [
             {
@@ -424,7 +424,7 @@
         {
           "name": "petal3",
           "parent": "flower",
-          "pivot": [-0.5, 38, -13.5],
+          "pivot": [-0.5, 40, -13.5],
           "rotation": [0, 0, 90],
           "cubes": [
             {
@@ -437,7 +437,7 @@
         {
           "name": "petal2",
           "parent": "flower",
-          "pivot": [1.5, 36, -13.5],
+          "pivot": [1.5, 38, -13.5],
           "rotation": [0, 0, -180],
           "cubes": [
             {
@@ -450,7 +450,7 @@
         {
           "name": "petal",
           "parent": "flower",
-          "pivot": [-2.5, 36, -13.5],
+          "pivot": [-2.5, 38, -13.5],
           "cubes": [
             {
               "origin": [-2.5, 36, -16.5],

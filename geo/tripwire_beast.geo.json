@@ -13,7 +13,7 @@
       "bones": [
         {
           "name": "body",
-          "pivot": [0, 16, 0],
+          "pivot": [0, 18, 0],
           "cubes": [
             {
               "origin": [-16, 2, -16],
@@ -30,7 +30,7 @@
         {
           "name": "hindleg2",
           "parent": "body",
-          "pivot": [-16, 6.5, 10.5],
+          "pivot": [-16, 8.5, 10.5],
           "cubes": [
             {
               "origin": [-22, 4, 6],
@@ -42,7 +42,7 @@
         {
           "name": "lower_hindleg2",
           "parent": "hindleg2",
-          "pivot": [-18, 2, 13.5],
+          "pivot": [-18, 4, 13.5],
           "cubes": [
             {
               "origin": [-21, 1, 4],
@@ -54,7 +54,7 @@
         {
           "name": "hindclaw2",
           "parent": "lower_hindleg2",
-          "pivot": [-18, 0.5, 4],
+          "pivot": [-18, 2.5, 4],
           "cubes": [
             {
               "origin": [-21, 1, 1],
@@ -66,7 +66,7 @@
         {
           "name": "foreleg2",
           "parent": "body",
-          "pivot": [-16, 4, -14],
+          "pivot": [-16, 6, -14],
           "cubes": [
             {
               "origin": [-19, 4, -22],
@@ -78,7 +78,7 @@
         {
           "name": "foreclaw2",
           "parent": "foreleg2",
-          "pivot": [-16, 3.5, -22],
+          "pivot": [-16, 5.5, -22],
           "cubes": [
             {
               "origin": [-19, 4, -27],
@@ -90,7 +90,7 @@
         {
           "name": "neck",
           "parent": "body",
-          "pivot": [0, 5.5, -16],
+          "pivot": [0, 7.5, -16],
           "cubes": [
             {
               "origin": [-3, 5, -21],
@@ -102,7 +102,7 @@
         {
           "name": "head",
           "parent": "neck",
-          "pivot": [0, 5.4391, -20.89385],
+          "pivot": [0, 7.4391, -20.89385],
           "cubes": [
             {
               "origin": [-5, 5, -29],
@@ -139,7 +139,7 @@
         {
           "name": "jaw",
           "parent": "head",
-          "pivot": [0, 4.25, -29],
+          "pivot": [0, 6.25, -29],
           "cubes": [
             {
               "origin": [-5, 5, -35],
@@ -156,7 +156,7 @@
         {
           "name": "foreleg",
           "parent": "body",
-          "pivot": [16, 4, -14],
+          "pivot": [16, 6, -14],
           "cubes": [
             {
               "origin": [13, 4, -22],
@@ -169,7 +169,7 @@
         {
           "name": "foreclaw",
           "parent": "foreleg",
-          "pivot": [16, 3.5, -22],
+          "pivot": [16, 5.5, -22],
           "cubes": [
             {
               "origin": [13, 4, -27],
@@ -182,7 +182,7 @@
         {
           "name": "hindleg",
           "parent": "body",
-          "pivot": [16, 6.5, 10.5],
+          "pivot": [16, 8.5, 10.5],
           "cubes": [
             {
               "origin": [14, 4, 6],
@@ -195,7 +195,7 @@
         {
           "name": "lower_hindleg",
           "parent": "hindleg",
-          "pivot": [18, 2, 13.5],
+          "pivot": [18, 4, 13.5],
           "cubes": [
             {
               "origin": [15, 1, 4],
@@ -208,7 +208,7 @@
         {
           "name": "hindclaw",
           "parent": "lower_hindleg",
-          "pivot": [18, 0.5, 4],
+          "pivot": [18, 2.5, 4],
           "cubes": [
             {
               "origin": [15, 1, 1],
@@ -221,7 +221,7 @@
         {
           "name": "tail",
           "parent": "body",
-          "pivot": [0, 7.5, 16],
+          "pivot": [0, 9.5, 16],
           "cubes": [
             {
               "origin": [-4.5, 5, 16],
@@ -233,7 +233,7 @@
         {
           "name": "tail2",
           "parent": "tail",
-          "pivot": [0, 7.5, 28],
+          "pivot": [0, 9.5, 28],
           "cubes": [
             {
               "origin": [-4.5, 5, 28],
@@ -245,7 +245,7 @@
         {
           "name": "tail3",
           "parent": "tail2",
-          "pivot": [0, 7.5, 40],
+          "pivot": [0, 9.5, 40],
           "cubes": [
             {
               "origin": [-3.5, 6, 40],
@@ -257,7 +257,7 @@
         {
           "name": "tail4",
           "parent": "tail3",
-          "pivot": [0, 7.5, 52],
+          "pivot": [0, 9.5, 52],
           "cubes": [
             {
               "origin": [-3.5, 6, 52],
@@ -269,7 +269,7 @@
         {
           "name": "tail5",
           "parent": "tail4",
-          "pivot": [0, 7.5, 64],
+          "pivot": [0, 9.5, 64],
           "cubes": [
             {
               "origin": [-2.5, 7, 64],
@@ -281,7 +281,7 @@
         {
           "name": "tail6",
           "parent": "tail5",
-          "pivot": [0, 7.5, 76],
+          "pivot": [0, 9.5, 76],
           "cubes": [
             {
               "origin": [-1.5, 8, 76],

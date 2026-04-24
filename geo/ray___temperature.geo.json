@@ -13,12 +13,12 @@
       "bones": [
         {
           "name": "body",
-          "pivot": [0, 0, 0]
+          "pivot": [0, 2, 0]
         },
         {
           "name": "sun",
           "parent": "body",
-          "pivot": [-1, 16, 3],
+          "pivot": [-1, 18, 3],
           "cubes": [
             {
               "origin": [-9, 10, -1],
@@ -30,7 +30,7 @@
         {
           "name": "sun_decor",
           "parent": "sun",
-          "pivot": [-1.5, 16, 3],
+          "pivot": [-1.5, 18, 3],
           "cubes": [
             {
               "origin": [-18, 2, 3],
@@ -42,7 +42,7 @@
         {
           "name": "wind",
           "parent": "body",
-          "pivot": [-1, 12, -11],
+          "pivot": [-1, 14, -11],
           "cubes": [
             {
               "origin": [-9, 10, -15],
@@ -54,7 +54,7 @@
         {
           "name": "wind_head",
           "parent": "wind",
-          "pivot": [-8, 14, -11],
+          "pivot": [-8, 16, -11],
           "cubes": [
             {
               "origin": [-14, 14, -14],
@@ -66,7 +66,7 @@
         {
           "name": "wind_tail",
           "parent": "wind",
-          "pivot": [7, 12, -11],
+          "pivot": [7, 14, -11],
           "cubes": [
             {
               "origin": [7, 11, -14.5],
@@ -78,7 +78,7 @@
         {
           "name": "wind_tail2",
           "parent": "wind_tail",
-          "pivot": [23, 12, -11],
+          "pivot": [23, 14, -11],
           "cubes": [
             {
               "origin": [23, 12, -14],
@@ -90,7 +90,7 @@
         {
           "name": "wind_tail3",
           "parent": "wind_tail2",
-          "pivot": [39, 12, -11],
+          "pivot": [39, 14, -11],
           "cubes": [
             {
               "origin": [39, 13, -13.5],
@@ -102,7 +102,7 @@
         {
           "name": "wind_tail4",
           "parent": "wind_tail3",
-          "pivot": [55, 12, -11],
+          "pivot": [55, 14, -11],
           "cubes": [
             {
               "origin": [55, 13.5, -12.5],
@@ -114,7 +114,7 @@
         {
           "name": "wind_tail5",
           "parent": "wind_tail4",
-          "pivot": [71, 12, -11],
+          "pivot": [71, 14, -11],
           "cubes": [
             {
               "origin": [71, 13.5, -11.5],
