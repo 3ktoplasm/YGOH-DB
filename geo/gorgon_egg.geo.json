@@ -1,0 +1,136 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.unknown",
+        "texture_width": 128,
+        "texture_height": 128,
+        "visible_bounds_width": 4,
+        "visible_bounds_height": 3.5,
+        "visible_bounds_offset": [0, 1.25, 0]
+      },
+      "bones": [
+        {
+          "name": "egg",
+          "pivot": [0, 14, 0],
+          "cubes": [
+            {
+              "origin": [-10, 2, -10],
+              "size": [20, 24, 20],
+              "uv": [0, 0]
+            }
+          ]
+        },
+        {
+          "name": "skull8",
+          "parent": "egg",
+          "pivot": [5, 3, 9.5],
+          "cubes": [
+            {
+              "origin": [0.5, 2, 9.5],
+              "size": [8, 11, 3],
+              "pivot": [4.5, 5.5, 11],
+              "rotation": [0, 180, 0],
+              "uv": [22, 44]
+            }
+          ]
+        },
+        {
+          "name": "skull7",
+          "parent": "egg",
+          "pivot": [-5, 3, 9.5],
+          "cubes": [
+            {
+              "origin": [-8.5, 2, 9.5],
+              "size": [8, 11, 3],
+              "pivot": [-4.5, 5.5, 11],
+              "rotation": [0, 180, 0],
+              "uv": [22, 44]
+            }
+          ]
+        },
+        {
+          "name": "skull6",
+          "parent": "egg",
+          "pivot": [-10, 3, 5],
+          "rotation": [0, -90, 0],
+          "cubes": [
+            {
+              "origin": [-14.5, 2, 5],
+              "size": [8, 11, 3],
+              "pivot": [-10.5, 5.5, 6.5],
+              "rotation": [0, 180, 0],
+              "uv": [22, 44]
+            }
+          ]
+        },
+        {
+          "name": "skull5",
+          "parent": "egg",
+          "pivot": [-10, 3, -5],
+          "rotation": [0, 90, 0],
+          "cubes": [
+            {
+              "origin": [-14.5, 2, -8],
+              "size": [8, 11, 3],
+              "uv": [22, 44]
+            }
+          ]
+        },
+        {
+          "name": "skull4",
+          "parent": "egg",
+          "pivot": [10, 3, 5],
+          "rotation": [0, 90, 0],
+          "cubes": [
+            {
+              "origin": [6.5, 2, 5],
+              "size": [8, 11, 3],
+              "pivot": [10.5, 5.5, 6.5],
+              "rotation": [0, 180, 0],
+              "uv": [22, 44]
+            }
+          ]
+        },
+        {
+          "name": "skull2",
+          "parent": "egg",
+          "pivot": [-5, 3, -9.5],
+          "cubes": [
+            {
+              "origin": [-8.5, 2, -12.5],
+              "size": [8, 11, 3],
+              "uv": [22, 44]
+            }
+          ]
+        },
+        {
+          "name": "skull3",
+          "parent": "egg",
+          "pivot": [10, 3, -5],
+          "rotation": [0, -90, 0],
+          "cubes": [
+            {
+              "origin": [6.5, 2, -8],
+              "size": [8, 11, 3],
+              "uv": [22, 44]
+            }
+          ]
+        },
+        {
+          "name": "skull",
+          "parent": "egg",
+          "pivot": [5, 3, -9.5],
+          "cubes": [
+            {
+              "origin": [0.5, 2, -12.5],
+              "size": [8, 11, 3],
+              "uv": [22, 44]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
